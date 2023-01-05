@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+   
+}
+.head-main{
+    
+    background-color: #fceadd;
+    background-image: url(../images/header_bg.png,),url(../images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right,left;
+   
+}
+.nav-title{
+    
+    font-weight: 800;
+    font-size: 45px;
+}
+
+#text-r{
+    color: #FD6E0A;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 200px;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 50px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    
+}
+
+/* button styles */
+
+.btn-primary{
+    color:antiquewhite;
+    background-color: #FD6E0A;
+    height: 60px;
+    padding: 19px 35px;
+    border: 0;
+    border-radius: 5%;
+}
+
+.btn-secondary{
+    color:#FD6E0A;
+    background-color: #ffffff;
+    height: 60px;
+    padding: 19px 35px;
+    border: 3px solid #FD6E0A;
+    border-radius: 5%;
+}
+
+
+/* Bannar Styles */
+
+.banner{
+    display: flex;
+    margin: 0 200px;
+    
+}
+
+.sub-banner{
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 20px;
+    
+}
+
+.main-banner{
+    color:#FD6E0A;
+    font-weight: 1000;
+    font-size: 60px;
+
+}
