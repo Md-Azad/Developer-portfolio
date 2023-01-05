@@ -79,3 +79,16 @@ nav ul{
     font-size: 60px;
 
 }
+
+/* about me section styles */
+
+.main-about{
+    max-width: 1143px;
+    margin: 0 auto;
+    background-color: #fceadd;
+    
+}
+.about-title{
+    text-align: center;
+    margin: 0 40px 0 25px;
+}
